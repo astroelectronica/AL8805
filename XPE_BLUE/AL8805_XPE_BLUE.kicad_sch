@@ -5,7 +5,7 @@
 	(uuid "140f6967-bf1f-4114-ab39-f83ccdda8d1f")
 	(paper "A4")
 	(title_block
-		(title "High efficiency 36V/1A buck led driver. XP-E green.")
+		(title "High efficiency 36V/1A buck led driver. XP-E blue.")
 		(date "2024-07-11")
 		(rev "1")
 		(company "astroelectronic@")
