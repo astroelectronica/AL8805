@@ -2205,16 +2205,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 88.9) (xy 273.05 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59ad06bc-aafc-4d85-81ef-484074afa205")
-	)
-	(wire
-		(pts
 			(xy 198.12 88.9) (xy 207.01 88.9)
 		)
 		(stroke
@@ -2222,6 +2212,16 @@
 			(type default)
 		)
 		(uuid "5ce2ecab-f88d-412e-bc7f-92d69f522b95")
+	)
+	(wire
+		(pts
+			(xy 247.65 88.9) (xy 256.54 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6075bb13-eb4a-421e-aaaf-670ef1b761d7")
 	)
 	(wire
 		(pts
@@ -2485,6 +2485,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 88.9) (xy 273.05 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f388db5a-7767-41b1-8582-f230fec4e897")
+	)
+	(wire
+		(pts
 			(xy 148.59 114.3) (xy 139.7 114.3)
 		)
 		(stroke
@@ -2568,6 +2578,17 @@
 			(justify left bottom)
 		)
 		(uuid "c17961a0-101f-4516-97b9-917fc5fdefe0")
+	)
+	(label "LDB7"
+		(at 248.92 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d113139e-1ded-42bd-90d6-c3487a3cdc61")
 	)
 	(label "LDB3"
 		(at 182.88 88.9 0)
@@ -3844,6 +3865,111 @@
 			(project ""
 				(path "/e7635a11-762a-4e8b-b872-d36c6a1823c2"
 					(reference "#FLG0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AL8805:DIODE")
+		(at 260.35 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd77e3d8-a180-47aa-ab57-a231180f18f9")
+		(property "Reference" "D7"
+			(at 260.35 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XLampXPEgreen"
+			(at 260.35 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, anode on pin 1, for simulation only!"
+			(at 260.35 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=A 2=K"
+			(at 260.35 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 260.35 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "C:\\AE\\AL8805\\_models\\XPE_SPICE.lib"
+			(at 260.35 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "XLampXPEgreen"
+			(at 260.35 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b22dfa8-df3b-4e92-be93-ebbece244596")
+		)
+		(pin "2"
+			(uuid "d41ff376-b8c0-4545-93da-5ab1294e3d05")
+		)
+		(instances
+			(project "AL8805_XPE_GREEN"
+				(path "/e7635a11-762a-4e8b-b872-d36c6a1823c2"
+					(reference "D7")
 					(unit 1)
 				)
 			)

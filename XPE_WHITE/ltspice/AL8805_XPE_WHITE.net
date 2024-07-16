@@ -9,7 +9,7 @@
 *
 *params
 *
-.param VSOURCE=24
+.param VSOURCE=28
 .param VPUL=5
 .param RSENSE1=0.402
 .param RSENSE2=0.402
